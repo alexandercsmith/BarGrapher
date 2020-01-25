@@ -11,7 +11,22 @@ import SwiftUI
 
 struct BarGraph: View {
   var body: some View {
-    Text("Bar Graph")
+    VStack {
+      HStack(alignment: .lastTextBaseline) {
+        Rectangle()
+          .fill(Color.orange)
+          .frame(width: 100, height: 100)
+          .padding()
+        Rectangle()
+          .fill(Color.green)
+          .frame(width: 100, height: 150)
+          .padding()
+        Rectangle()
+          .fill(Color.blue)
+          .frame(width: 100, height: 200)
+          .padding()
+      }
+    }
   }
 }
 
