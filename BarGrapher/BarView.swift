@@ -10,6 +10,7 @@ import SwiftUI
 
 struct BarView: View {
   let report: Report
+  @State private var showGraph: Bool = false
   
   var body: some View {
     let value = report.revenue / 300
@@ -19,7 +20,12 @@ struct BarView: View {
       Text(String(format: "$%.2f", report.revenue))
       Rectangle()
         .fill(Color.red)
-        .frame(width: 100, height: CGFloat(yValue))
+        .frame(width: 100, height: self.showGraph ? CGFloat(yValue) : 0)
+        .onAppear {
+          withAnimation(.default) {
+            self.showGraph.toggle()
+          }
+        }
       Text(report.year)
     }
   }
