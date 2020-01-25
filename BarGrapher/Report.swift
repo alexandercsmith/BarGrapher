@@ -19,9 +19,7 @@ extension Report {
     return [
       Report(year: "2020", revenue: 4500),
       Report(year: "2019", revenue: 8700),
-      Report(year: "2018", revenue: 3200),
-      Report(year: "2017", revenue: 1500),
-      Report(year: "2016", revenue: 8900)
+      Report(year: "2018", revenue: 3200)
     ]
   }
 }
