@@ -16,6 +16,7 @@ struct BarView: View {
     let yValue = Swift.min(value * 20, 300)
     
     return VStack {
+      Text(String(format: "$%.2f", report.revenue))
       Rectangle()
         .fill(Color.red)
         .frame(width: 100, height: CGFloat(yValue))
