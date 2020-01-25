@@ -13,6 +13,7 @@
 		5820D51023DBEA7200A94383 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5820D50F23DBEA7200A94383 /* Assets.xcassets */; };
 		5820D51323DBEA7200A94383 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5820D51223DBEA7200A94383 /* Preview Assets.xcassets */; };
 		5820D51623DBEA7200A94383 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5820D51423DBEA7200A94383 /* LaunchScreen.storyboard */; };
+		5820D52123DBEB3A00A94383 /* BarGraph.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5820D52023DBEB3A00A94383 /* BarGraph.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		5820D51523DBEA7200A94383 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5820D51723DBEA7200A94383 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5820D51D23DBEA8F00A94383 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		5820D52023DBEB3A00A94383 /* BarGraph.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarGraph.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +67,7 @@
 				5820D51423DBEA7200A94383 /* LaunchScreen.storyboard */,
 				5820D51723DBEA7200A94383 /* Info.plist */,
 				5820D51123DBEA7200A94383 /* Preview Content */,
+				5820D52023DBEB3A00A94383 /* BarGraph.swift */,
 			);
 			path = BarGrapher;
 			sourceTree = "<group>";
@@ -148,6 +151,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5820D52123DBEB3A00A94383 /* BarGraph.swift in Sources */,
 				5820D50A23DBEA6F00A94383 /* AppDelegate.swift in Sources */,
 				5820D50C23DBEA6F00A94383 /* SceneDelegate.swift in Sources */,
 				5820D50E23DBEA6F00A94383 /* ContentView.swift in Sources */,
